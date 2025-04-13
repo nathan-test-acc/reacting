@@ -8,7 +8,7 @@ configDotenv();
 const app = express();
 const port = process.env.PORT || 5000;
 
-console.log('Testing');
+console.log('new branch');
 
 // Middleware
 app.use(cors());
